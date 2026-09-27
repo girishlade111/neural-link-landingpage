@@ -1,5 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
+  basePath: '/neural-link-landingpage',
   eslint: {
     ignoreDuringBuilds: true,
   },
